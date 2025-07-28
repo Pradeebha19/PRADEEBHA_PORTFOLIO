@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>PRADEEBHA</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
+						<a href="index.html" class="logo"><strong>PRADEEBHA</strong> <span>MURUGAVEL</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="skills.html">Skill</a></li>
+							<li><a href="projects.html">project</a></li>
+							<li><a href="experience.html">Experience</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="#" class="button primary fit">Get Started</a></li>
+							<li><a href="#" class="button fit">Log In</a></li>
+						</ul>
+					</nav>
+
+				
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							
+
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+									<a href="spam.html" class="image">
+										<img src="images/retailshop.jpg" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Retail Sales Insights Dashboard (SQLite + Streamlit)
+                                                </h3>
+											</header>
+											<p>Welcome to the Retail Sales Insights Dashboard – an interactive data analytics project that combines the power of SQL with modern data visualization using Streamlit. This project showcases your ability to extract insights from sales data and present them through a dynamic dashboard.
+                                            </p>
+											<ul class="actions">
+												<li><a href="https://github.com/Pradeebha19/SQL-PROJECT" class="button">View Code</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								
+							</section>
+
+                            <!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										
+									</header>
+
+									<!-- Content -->
+										<h2 id="content"> 📌Project Overview:</h2>
+										<h3>🎯 Goal:</h3>
+                                        <p>To explore and analyze Superstore sales data using SQL and present key business insights through a visually interactive dashboard.
+                                        </p>
+                                        <h3>👨‍💻 Tools & Technologies:</h3>
+
+
+										<li>SQLite – for database storage and querying
+
+										</li>
+										<li>SQL – to extract and analyze business metrics
+ 										</li>
+										<li>Python (Pandas, SQLAlchemy) – for data handling and backend logic
+
+										</li>
+										<li>Streamlit – to build an interactive and shareable dashboard
+										</li>
+                                        <li>GitHub – for version control and showcasing your project
+										</li>
+                                        
+                                        
+										<br>
+										<h2 id="content">Data Description</h2>
+                                        <p>The dataset used is derived from the popular "Superstore" retail dataset, originally in CSV format and converted to SQLite for structured querying.
+                                        </p>
+										<h3>Database Table:sales</h3>
+                                        <p>Contains columns such as:
+                                        </p>                                                                    
+										<li>Order ID, Order Date, Ship Mode</li>
+                                        <li>Customer ID, Customer Name</li>
+                                        <li>Segment, State, Region</li>	
+                                        <li>Product Name, Category, Sub-Category</li>	
+                                        <li>Sales, Profit, Discount, etc.</li>																
+										<br>   
+                                            <h2 id="content">Key Features & SQL Insights</h2>
+                                            <h2 id="content">step 1:Data validation</h2> 
+										<li>SELECT * FROM sales LIMIT 5;</li>
+                                        <br>
+                                          <h2 id="content">Step 2: Missing Data Check</h2>
+										<li>SELECT * FROM sales WHERE Sales IS NULL OR State IS NULL;</li>
+                                        <br>
+                                        <h2 id="content">Step 3: Metric-Based Analysis</h2>
+										<li>Query Description SELECT SUM(Sales), SUM(Profit) Total performance overview GROUP BY State Top 10 states by sales GROUP BY Sub-Category Top 5 most profitable sub-categories WHERE Discount > 0.3 AND Profit < 0 High discount, low profit warning GROUP BY Region Sales by region GROUP BY Category, Sub-Category Performance by category & sub-category</li>
+<br>
+                                        
+                                        <h2 id="content">📈 Dashboard Features (Built in Streamlit)</h2>
+										<li>View entire dataset (scrollable table)t</li>
+                                        <li>Visualizations of total sales by region</li>
+                                        <li>Highlight most/least profitable sub-categories</li>
+                                        <li>Flag products with discounts that hurt profits</li>
+                                          <li>Fast filtering, sorting, and interactive charts</li>
+										<br>
+										<h2 id="content">Deploy</h2>
+										<li>pip install streamlit streamlit run app.py</li>
+                                        <li>Local URL: http://localhost:8501 Network URL: http://192.168.1.170:8501</li>
+										
+ 
+ 
+					</div>
+
+				
+
+					<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								
+								
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Copyright © 2025 Pradeebha Murgavel</li><li>All Rights Reserved</li>
+								
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
